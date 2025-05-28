@@ -1,0 +1,32 @@
+[project]
+name = "local-mcp"
+version = "0.1.0"
+description = "基於 MCP 的Agent系統"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "sentence-transformers",
+    "transformers",
+    "langchain",
+    "langchain-community",
+    "langchain-pymupdf4llm",
+    "langchain-core",
+    "langchain-milvus",
+    "langchain-huggingface",
+    "langchain-openai",
+    "pymilvus",
+    "torch",
+    "langgraph",
+    "accelerate",
+    "ipython",
+    "tqdm",
+    "mcp",
+    "langchain-mcp-adapters",
+    "vllm",
+    "markitdown[all]",
+    "python-dotenv",
+    "numpy",
+    "sympy",
+    "mpmath",
+]
