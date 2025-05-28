@@ -1,4 +1,4 @@
-# MCPTest 專案
+# LocalMCP 專案
 
 這是一個基於Model Context Protocol (MCP)的智能工具型系統，通過整合多種功能伺服器，實現了一個多面的AI助手系統。該系統可以執行數學運算、檔案系統操作、資料庫操作、文檔處理以及基於RAG（檢索增強生成）的問答功能。
 
@@ -15,7 +15,7 @@
 
 ## 專案簡介
 
-MCPTest是一個展示如何使用Model Context Protocol (MCP)架構構建複雜AI系統的專案。通過將各種功能劃分為獨立的 MCP 伺服器模組，並使用 MCP 客戶端進行協調，系統可以靈活地整合多種工具和資源，提供更靈活的AI助手功能。
+LocalMCP是一個展示如何使用Model Context Protocol (MCP)架構構建複雜AI系統的專案。通過將各種功能劃分為獨立的 MCP 伺服器模組，並使用 MCP 客戶端進行協調，系統可以靈活地整合多種工具和資源，提供更靈活的AI助手功能。
 
 本專案特別側重於如何使用MCP框架整合RAG（檢索增強生成）技術，使AI助手能夠基於知識庫回答用戶問題，同時還提供了檔案系統操作、資料庫管理和數學計算等功能。
 
@@ -58,7 +58,7 @@ MCPTest是一個展示如何使用Model Context Protocol (MCP)架構構建複雜
 1. 克隆專案：
    ```bash
    git clone [專案Git URL]
-   cd MCPTest
+   cd LocalMCP
    ```
 
 2. 創建並激活虛擬環境（可選但推薦）：
@@ -192,7 +192,7 @@ MCPTest是一個展示如何使用Model Context Protocol (MCP)架構構建複雜
 ## 代碼結構
 
 ```
-MCPTest/
+LocalMCP/
 ├── client.py              # 主客戶端
 ├── requirements.txt       # 依賴包
 ├── vllm.sh                # LLM服務啟動腳本
